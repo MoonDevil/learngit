@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73CE65EA1AAB439C0055DBFA /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE65E51AAB439C0055DBFA /* Dog.swift */; };
+		73CE65EB1AAB439C0055DBFA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE65E61AAB439C0055DBFA /* main.swift */; };
+		73CE65EC1AAB439C0055DBFA /* MoonSwiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE65E71AAB439C0055DBFA /* MoonSwiftModel.swift */; };
+		73CE65ED1AAB439C0055DBFA /* persen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE65E81AAB439C0055DBFA /* persen.swift */; };
+		73CE65EE1AAB439C0055DBFA /* Rou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE65E91AAB439C0055DBFA /* Rou.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73CE65CE1AAAFBE10055DBFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		73CE65D01AAAFBE10055DBFA /* 字典转模型 Dome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "字典转模型 Dome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CE65E51AAB439C0055DBFA /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		73CE65E61AAB439C0055DBFA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		73CE65E71AAB439C0055DBFA /* MoonSwiftModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonSwiftModel.swift; sourceTree = "<group>"; };
+		73CE65E81AAB439C0055DBFA /* persen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = persen.swift; sourceTree = "<group>"; };
+		73CE65E91AAB439C0055DBFA /* Rou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rou.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73CE65CD1AAAFBE10055DBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73CE65C71AAAFBE10055DBFA = {
+			isa = PBXGroup;
+			children = (
+				73CE65E41AAB439C0055DBFA /* 字典转模型 Dome */,
+				73CE65D11AAAFBE10055DBFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73CE65D11AAAFBE10055DBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73CE65D01AAAFBE10055DBFA /* 字典转模型 Dome */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73CE65E41AAB439C0055DBFA /* 字典转模型 Dome */ = {
+			isa = PBXGroup;
+			children = (
+				73CE65E51AAB439C0055DBFA /* Dog.swift */,
+				73CE65E61AAB439C0055DBFA /* main.swift */,
+				73CE65E71AAB439C0055DBFA /* MoonSwiftModel.swift */,
+				73CE65E81AAB439C0055DBFA /* persen.swift */,
+				73CE65E91AAB439C0055DBFA /* Rou.swift */,
+			);
+			path = "字典转模型 Dome";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73CE65CF1AAAFBE10055DBFA /* 字典转模型 Dome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CE65D71AAAFBE10055DBFA /* Build configuration list for PBXNativeTarget "字典转模型 Dome" */;
+			buildPhases = (
+				73CE65CC1AAAFBE10055DBFA /* Sources */,
+				73CE65CD1AAAFBE10055DBFA /* Frameworks */,
+				73CE65CE1AAAFBE10055DBFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "字典转模型 Dome";
+			productName = "大声大声道";
+			productReference = 73CE65D01AAAFBE10055DBFA /* 字典转模型 Dome */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73CE65C81AAAFBE10055DBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = moon;
+				TargetAttributes = {
+					73CE65CF1AAAFBE10055DBFA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 73CE65CB1AAAFBE10055DBFA /* Build configuration list for PBXProject "字典转模型 Dome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73CE65C71AAAFBE10055DBFA;
+			productRefGroup = 73CE65D11AAAFBE10055DBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73CE65CF1AAAFBE10055DBFA /* 字典转模型 Dome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73CE65CC1AAAFBE10055DBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CE65ED1AAB439C0055DBFA /* persen.swift in Sources */,
+				73CE65EB1AAB439C0055DBFA /* main.swift in Sources */,
+				73CE65EA1AAB439C0055DBFA /* Dog.swift in Sources */,
+				73CE65EE1AAB439C0055DBFA /* Rou.swift in Sources */,
+				73CE65EC1AAB439C0055DBFA /* MoonSwiftModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		73CE65D51AAAFBE10055DBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73CE65D61AAAFBE10055DBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		73CE65D81AAAFBE10055DBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "字典转模型 Dome";
+			};
+			name = Debug;
+		};
+		73CE65D91AAAFBE10055DBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "字典转模型 Dome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73CE65CB1AAAFBE10055DBFA /* Build configuration list for PBXProject "字典转模型 Dome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CE65D51AAAFBE10055DBFA /* Debug */,
+				73CE65D61AAAFBE10055DBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CE65D71AAAFBE10055DBFA /* Build configuration list for PBXNativeTarget "字典转模型 Dome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CE65D81AAAFBE10055DBFA /* Debug */,
+				73CE65D91AAAFBE10055DBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73CE65C81AAAFBE10055DBFA /* Project object */;
+}
